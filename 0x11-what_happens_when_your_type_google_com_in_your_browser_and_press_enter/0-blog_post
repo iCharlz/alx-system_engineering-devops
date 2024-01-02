@@ -1,0 +1,33 @@
+Navigating the Web: The Incredible Journey Behind Typing https://www.google.com and Hitting Enter
+
+Introduction:
+
+Ever stopped to wonder about the magic that unfolds when you type a URL into your browser and press Enter? The act of visiting a website might seem like a breeze, but behind the scenes, a whirlwind of intricate steps takes place in the blink of an eye. In this blog post, let's embark on a journey through the web to explore what happens when you type "https://www.google.com" and press Enter.
+
+1. DNS Request:
+   Imagine your computer as a linguistic maestro translating human-readable URLs like "www.google.com" into the numerical language of IP addresses. This translation is the result of a Domain Name System (DNS) request. Your computer shoots a message to a DNS server, and like a diligent librarian, it returns the corresponding IP address.
+
+2. TCP/IP:
+   Armed with the IP address, your browser becomes a virtual tour guide, initiating a connection using the Transmission Control Protocol (TCP) and the Internet Protocol (IP). TCP, a digital courier, ensures the safe delivery of data by packaging it into neat parcels, sending them off, and confirming their arrival.
+
+3. Firewall:
+   Before reaching its destination, your data's journey may include passing through firewalls – the gatekeepers of the digital realm. These security sentinels filter and monitor network traffic, granting passage only to authorized packets. It's the bouncer at the club, ensuring only the right crowd gets in.
+
+4. HTTPS/SSL:
+   The 'https' in "https://www.google.com" is the key to a secure connection. Secure Sockets Layer (SSL) or its successor, Transport Layer Security (TLS), takes center stage. Like a digital cloak, SSL/TLS encrypts the data waltzing between your browser and the server, safeguarding sensitive information during its journey.
+
+5. Load-Balancer:
+   Picture high-traffic websites like Google as bustling cities with efficient traffic managers – load balancers. These digital coordinators distribute incoming requests among multiple servers, preventing congestion and ensuring each server pulls its weight. It's like traffic lights keeping the flow smooth.
+
+6. Web Server:
+   Once past the digital traffic check, your request lands at a web server – the frontline responder. This server handles HTTP requests, serving up static content or directing dynamic requests to the appropriate backstage: the application server. For Google, this initial server may even offer you cached results or usher your request to a specialized server.
+
+7. Application Server:
+   For a taste of dynamism, your request is ushered backstage to an application server. This digital maestro processes complex tasks – running scripts, handling database queries, and crafting dynamic web pages. Google, the search engine virtuoso, may perform intricate algorithms at this stage to present you with the most relevant search results.
+
+8. Database:
+   Websites like Google rely on databases for their treasure trove of information. The application server talks shop with a database server, exchanging data like old pals. In the search engine realm, this step involves querying vast databases to pull out the most relevant information for your search query.
+
+Conclusion:
+
+From the moment you type "https://www.google.com" to the joy of seeing search results, a symphony of technologies choreographs a seamless dance. DNS requests, TCP/IP communication, firewalls, HTTPS/SSL encryption, load balancing, web servers, application servers, and databases come together to create the robust infrastructure supporting our daily interactions with websites. Understanding this digital ballet sheds light on the intricacies that ensure a smooth and secure user experience in the vast landscape of the World Wide Web.
